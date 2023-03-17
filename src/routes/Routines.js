@@ -52,7 +52,7 @@ const Routines = () => {
       const newRoutine = {
         name: name,
         goal: goal
-      };
+      };  
       setRoutines([newRoutine, ...routines]);
       setName('');
       setGoal('');
